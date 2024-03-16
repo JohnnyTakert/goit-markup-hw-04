@@ -310,7 +310,6 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  fill: #f4f4fd;
 }
 
 .link-team {
