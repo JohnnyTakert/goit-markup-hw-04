@@ -343,7 +343,29 @@ button {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+}
+
+.overlay {
+  position: relative;
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #4d5ae5;
+  overflow: hidden;
+}
+
+.portfolio-image-text-overlay {
+  position: absolute;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
 .img-text-portfolio {
