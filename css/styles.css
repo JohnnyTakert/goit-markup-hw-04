@@ -303,26 +303,33 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 32px 0;
 }
 
 .team-icon-link {
   display: flex;
+  justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
+  fill: #f4f4fd;
+}
+
+.link-team {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #f4f4fd;
 }
 
 .team-icon-link-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #404bbf;
-  width: 40px;
-  height: 40px;
 }
 
-.team-icon-link-items:hover {
+.link-team:hover,
+.link-team:focus {
   background-color: #31d0aa;
 }
 
