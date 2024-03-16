@@ -452,9 +452,6 @@ footer {
   height: 72px;
 }
 
-.footer-wrap-soc {
-}
-
 .footer-title-text {
   font-weight: 500;
   font-size: 16px;
@@ -464,22 +461,29 @@ footer {
   margin-bottom: 16px;
 }
 
+.footer-wrap-soc {
+}
+
 .footer-icon-link {
   display: flex;
   gap: 16px;
+}
+
+.link-footer {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   fill: #f4f4fd;
 }
 
 .footer-icon-link-items {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  background-color: #404bbf;
-  width: 40px;
-  height: 40px;
 }
 
-.footer-icon-link-items:hover {
+.link-footer:hover,
+.link-footer:focus {
   background-color: #31d0aa;
 }
