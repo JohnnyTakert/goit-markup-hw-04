@@ -275,10 +275,6 @@ button {
 .team-image {
 }
 
-.img-text {
-  padding-top: 32px;
-}
-
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -299,14 +295,13 @@ button {
 }
 
 .team-icon {
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .team-icon-link {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 32px 0;
 }
 
 .link-team {
