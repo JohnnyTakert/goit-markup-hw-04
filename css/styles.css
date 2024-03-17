@@ -299,9 +299,6 @@ button {
 }
 
 .team-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 8px;
   padding-bottom: 32px;
 }
