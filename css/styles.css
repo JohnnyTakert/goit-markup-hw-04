@@ -295,13 +295,13 @@ button {
 }
 
 .team-icon {
+  padding: 32px 0;
 }
 
 .team-icon-link {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding: 32px 0;
 }
 
 .link-team {
